@@ -224,7 +224,7 @@ checkoutBtn.addEventListener("click", function(){
 function checkNatureHarvestOpen(){
   const data = new Date();
   const hora = data.getHours();
-  return hora >= 7:30 && hora < 18:00; 
+  return hora >= 7 && hora < 18; 
   //true = NatureHarvest está aberta
 }
 
