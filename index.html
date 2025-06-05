@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- META TAG OG -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="NatureHarvest - Colheita Natural"/>
+  <meta property="og:image" content="https://agrinho-2024-beryl.vercel.app/Img/NatureHarvest%20logo.jpg"/>
+    <meta property="og:description" content="Aqui tem qualidade!" />
+    <meta property="og:site_name" content="NatureHarvest" /> 
+
+  <link rel="stylesheet" href="output.css" />
+
+  <title>NatureHarvest</title>
+</head>
+<body>
+  
+  <!-- HEADER -->
+  <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+    <div class="w-full h-full flex flex-col justify-center items-center">
+      <img 
+        src="Img/NatureHarvest logo.jpg"
+        alt="NatureHarvest logo"
+        class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"
+      />
+      <h1 class="text-4xl mt-4 mb-2 font-bold text-white">
+        NatureHarvest 
+      </h1>
+
+      <span class="text-white font-medium">Linha Alagado, Rio Bonito do Iguaçu - PR</span>
+
+      <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
+        <span class="text-white font-medium">Seg á Sáb - 7:00 as 18:00</span>
+      </div>
+
+    </div>
+  </header>
+  <!-- FIM HEADER -->
+  
+  <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
+    Conheça nossas frutas, verduras e legumes
+  </h2>
+
+  <!-- INICIO MENU -->
+  <div id="menu">
+    
+    <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/abacate.png"
+          alt="Abacate (Unidade)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Abacate (Unidade)</p>
+          <p class="text-sm">O abacate é rico em gorduras boas, que são essenciais para o coração e o cérebro.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 9.59</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Abacate (Unidade)"
+              data-price="9.59"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/abacaxi.png"
+          alt="Abacaxi Pérola (Unidade)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Abacaxi Pérola (Unidade)</p>
+          <p class="text-sm">O abacaxi é rico em vitamina C, tornando-o uma excelente escolha para fortalecer o sistema imunológico.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 15.75</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Abacaxi Pérola (Unidade)"
+              data-price="15.75"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/ameixa.png"
+          alt="Ameixa (Unidade)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Ameixa (Unidade)</p>
+          <p class="text-sm">A ameixa é uma fruta doce e suculenta, perfeita para um lanche saudável.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 7.55</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Ameixa (Unidade)"
+              data-price="7.55"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->      
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/banana.png"
+          alt="Banana Prata (Penca)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Banana Prata  (Penca)</p>
+          <p class="text-sm">Comer uma banana pela manhã é uma ótima maneira de começar o dia com energia.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 14.90</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Banana Prata (Penca)"
+              data-price="14.90"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM --> 
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/coco.png"
+          alt="Coco Seco (Unidade)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Coco Seco (Unidade)</p>
+          <p class="text-sm">A polpa do coco é deliciosa e rica em nutrientes, sendo uma excelente adição a diversas sobremesas.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 9.50</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Coco Seco (Unidade)"
+              data-price="9.50"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/cereja.png"
+          alt="Cereja (300g)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Cereja (300g)</p>
+          <p class="text-sm">Cerejas frescas são pequenas joias vermelhas, cheias de sabor e doçura.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 19.90</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Cereja (300g)"
+              data-price="19.90"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/framboesa.png"
+          alt="Framboesa (Bandeja)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Framboesa (Bandeja)</p>
+          <p class="text-sm">Framboesas são ricas em antioxidantes, que ajudam a combater os radicais livres no corpo.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 32.50</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Framboesa (Bandeja)"
+              data-price="32.50"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->      
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/jabuticaba.png"
+          alt="Jabuticaba (500g)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Jabuticaba (500g)</p>
+          <p class="text-sm">A jabuticaba é a estrela de muitas receitas brasileiras, desde geleias até licores.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 12.63</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Jabuticaba (500g)"
+              data-price="12.63"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/kiwi.png"
+          alt="Kiwi Verde (Unidade)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Kiwi Verde (Unidade)</p>
+          <p class="text-sm">A polpa verde e suculenta do kiwi é deliciosa em saladas de frutas e smoothies.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 3.95</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Kiwi Verde (Unidade)"
+              data-price="3.95"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/limão.png"
+          alt="Limão Taiti (Unidade)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Limão Taiti (Unidade)</p>
+          <p class="text-sm">O limão é uma fruta cítrica versátil, perfeita para adicionar um toque de acidez a diversas receitas.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 2.50</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Limão Taiti (Unidade)"
+              data-price="2.50"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/mamão.png"
+          alt="Mamão Formosa (Unidade)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Mamão Formosa (Unidade)</p>
+          <p class="text-sm">Mamão é conhecido por suas propriedades digestivas, sendo uma escolha popular após as refeições.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 19.95</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Mamão Formosa (Unidade)"
+              data-price="19.95"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->  
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/manga.png"
+          alt="Manga Tommy (Unidade)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Manga Tommy (Unidade)</p>
+          <p class="text-sm">Manga é rica em vitaminas A e C, essenciais para a saúde da pele e do sistema imunológico.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 15.90</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Manga Tommy (Unidade)"
+              data-price="15.90"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/maracujá.png"
+          alt="Maracujá Doce (Unidade)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Maracujá Doce (Unidade)</p>
+          <p class="text-sm">Mousse de maracujá é uma sobremesa leve e deliciosa que agrada a todos os paladares.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 9.95</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Maracujá Doce (Unidade)"
+              data-price="9.95"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/melancia.png"
+          alt="Melancia (Aprox.10kg)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Melancia (Aprox.10kg)</p>
+          <p class="text-sm">A melancia é uma ótima fonte de hidratação, sendo composta principalmente por água.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 39.50</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Melancia (Aprox.10kg)"
+              data-price="39.50"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM --> 
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/melão.png"
+          alt="Melão Amarelo (Unidade)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Melão Amarelo (Unidade)</p>
+          <p class="text-sm">Melão cortado em cubos é uma opção saudável e deliciosa para um lanche rápido.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 19.99</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Melão Amarelo (Unidade)"
+              data-price="19.99"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/morango.png"
+          alt="Morango (Bandeja)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Morango (Bandeja)</p>
+          <p class="text-sm">Um morango fresco é uma explosão de sabor e doçura em cada mordida.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 14.50</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Morango (Bandeja)"
+              data-price="14.50"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/pêssego.png"
+          alt="Pêssego Nacional Benassi (Unidade)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Pêssego Nacional Benassi (Unidade)</p>
+          <p class="text-sm">Um pêssego maduro é uma verdadeira delícia, perfeito para ser apreciado sozinho ou em sobremesas.</p>
+
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 8.40</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Pêssego Nacional Benassi (Unidade)"
+              data-price="8.40"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/pitaya.png"
+          alt="Pitaya Vermelha Graúda (Unidade)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Pitaya Vermelha Graúda (Unidade)</p>
+          <p class="text-sm">A pitaya, também conhecida como fruta do dragão, é exótica e vibrante, com um sabor suave e refrescante.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 12.50</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Pitaya Vermelha Graúda (Unidade)"
+              data-price="12.50"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/tomate.png"
+          alt="Tomate Molho Graúdo (500g)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Tomate Molho Graúdo (500g)</p>
+          <p class="text-sm">O tomate é um fruto versátil e essencial na culinária, trazendo cor e sabor a diversos pratos.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 9.95</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Tomate Molho Graúdo (500g)"
+              data-price="9.95"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/uva.png"
+          alt="Uva Itália (Bandeja)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Uva Itália (Bandeja)</p>
+          <p class="text-sm">Um cacho de uvas frescas é um deleite natural e saudável para qualquer hora do dia.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 12.95</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Uva Itália (Bandeja)"
+              data-price="12.95"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM --> 
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/alface.png"
+          alt="Alface Crespa (Maço)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Alface Crespa (Maço)</p>
+          <p class="text-sm">Alface é rica em fibras e baixa em calorias, perfeita para quem quer perder peso.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 5.99</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Alface Crespa (Maço)"
+              data-price="5.99"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/brócolis.png"
+          alt="Brócolis Ninja (Unidade)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Brócolis Ninja (Unidade)</p>
+          <p class="text-sm">Brócolis é um superalimento, cheio de vitaminas e minerais essenciais.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 10.50</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Brócolis Ninja (Unidade)"
+              data-price="10.50"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/couve-flor.png"
+          alt="Couve-Flor (Unidade)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Couve-Flor (Unidade)</p>
+          <p class="text-sm">A couve-flor é uma excelente fonte de fibra, ajudando na digestão e promovendo a saciedade.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 15.95</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Couve-Flor (Unidade)"
+              data-price="15.95"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/hortelã.png"
+          alt="Hortelã (Maço)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Hortelã (Maço)</p>
+          <p class="text-sm">O chá de hortelã é conhecido por suas propriedades calmantes e digestivas.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 10.99</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Hortelã (Maço)"
+              data-price="10.99"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/orégano.png"
+          alt="Orégano (500g)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Orégano (500g)</p>
+          <p class="text-sm">Polvilhar orégano fresco ou seco em pizzas e massas realça o sabor.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 16.99</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Orégano (500g)"
+              data-price="16.99"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/pimentão.png"
+          alt="Pimentão (Unidade)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Pimentão (Unidade)</p>
+          <p class="text-sm">Pimentões grelhados têm um sabor único que enriquece qualquer refeição.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 6.75</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Pimentão (Unidade)"
+              data-price="6.75"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/repolho.png"
+          alt="Repolho (Unidade)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Repolho (Unidade)</p>
+          <p class="text-sm">Cada folha de repolho guarda o segredo de uma refeição deliciosa.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 8.50</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Repolho (Unidade)"
+              data-price="8.50"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/salsinha.png"
+          alt="Salsinha (Maço)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Salsinha (Maço)</p>
+          <p class="text-sm">Usar salsinha na culinária não só melhora o sabor, mas também acrescenta nutrientes valiosos.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 6.50</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Salsinha (Maço)"
+              data-price="6.50"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/abóbora.png"
+          alt="Abóbora Cabotian (Aprox.2,5kg)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Abóbora Cabotian (Aprox.2,5kg)</p>
+          <p class="text-sm">A abóbora é um ingrediente versátil, perfeito para pratos doces e salgados.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 11.59</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Abóbora Cabotian (Aprox.2,5kg)"
+              data-price="11.59"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/abobrinha.png"
+          alt="Abobrinha (Unidade)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Abobrinha (Unidade)</p>
+          <p class="text-sm">Com sua textura delicada, a abobrinha é uma adição sublime a pratos salgados.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 9.10</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Abobrinha (Unidade)"
+              data-price="9.10"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/batata.png"
+          alt="Batata Monalisa (500g)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Batata Monalisa (500g)</p>
+          <p class="text-sm">A batata: humilde na aparência, mas rica em possibilidades culinárias.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 7.50</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Batata Monalisa (500g)"
+              data-price="7.50"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/beterraba.png"
+          alt="Beterraba (Unidade)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Beterraba (Unidade)</p>
+          <p class="text-sm">Do solo à mesa, a beterraba traz consigo uma história de saúde e sabor.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 5.50</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Beterraba (Unidade)"
+              data-price="5.50"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/cebola.png"
+          alt="Cebola Roxa Graúda (500g)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Cebola Roxa Graúda (500g)</p>
+          <p class="text-sm">A cebola é a rainha das cozinhas, essencial em tantos pratos.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 8.99</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Cebola Roxa Graúda (500g)"
+              data-price="8.99"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/cenoura.png"
+          alt="Cenoura (500g)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Cenoura (500g)</p>
+          <p class="text-sm">Cenouras são ricas em beta-caroteno, que é ótimo para a saúde dos olhos.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 4.99</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Cenoura (500g)"
+              data-price="4.99"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/milho-verde.png"
+          alt="Milho-Verde (700g)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Milho-Verde (700g)</p>
+          <p class="text-sm">O milho-verde é o sabor do verão em cada grão suculento.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 11.99</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Milho-Verde (700g)"
+              data-price="11.99"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+
+      <!-- PRODUTO ITEM -->
+      <div class="flex gap-2">
+        <img 
+          src="Img/pepino.png"
+          alt="Pepino Comum (Unidade)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div>
+          <p class="font-bold">Pepino Comum (Unidade)</p>
+          <p class="text-sm">A crocância do pepino adiciona um toque especial a saladas e sanduíches.</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 3.73</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Pepino Comum (Unidade)"
+              data-price="3.73"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM PRODUTO ITEM -->
+      
+      
+    </main>
+
+    <div class="mx-auto max-w-7xl px-2 my-2">
+      <h2 class="font-bold text-center mt-9 mb-6 text-3xl">
+        Bebidas
+      </h2>
+    </div>
+
+    <!-- GRID BEBIDAS -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+        
+      <!-- BEBIDA ITEM -->
+        <div class="flex gap-2 w-full">
+          <img 
+            src="Img/coca-cola.png"
+            alt="Coca-Cola (Lata 350ml)"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+          />
+  
+          <div class="w-full">
+            <p class="font-bold">Coca-Cola (Lata 350ml)</p>
+  
+            <div class="flex items-center gap-2 justify-between mt-3">
+              <p class="font-bold text-lg">R$ 6</p>
+              <button 
+                class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                data-name="Coca-Cola (Lata 350ml)"
+                data-price="6"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+  
+          </div>
+  
+        </div>
+        <!-- FIM BEBIDA ITEM --> 
+
+      <!-- BEBIDA ITEM -->
+      <div class="flex gap-2 w-full">
+        <img 
+          src="Img/coca-zero.png"
+          alt="Coca-Cola Sem Açúcar (Lata 350ml)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div class="w-full">
+          <p class="font-bold">Coca-Cola Sem Açúcar (Lata 350ml)</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 6</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Coca-Cola Sem Açúcar (Lata 350ml)"
+              data-price="6"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM BEBIDA ITEM -->   
+
+        <!-- BEBIDA ITEM -->
+        <div class="flex gap-2 w-full">
+          <img 
+            src="Img/fanta-uva.png"
+            alt="Fanta Uva (Lata 350ml)"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+          />
+  
+          <div class="w-full">
+            <p class="font-bold">Fanta Uva (Lata 350ml)</p>
+  
+            <div class="flex items-center gap-2 justify-between mt-3">
+              <p class="font-bold text-lg">R$ 6</p>
+              <button 
+                class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                data-name="Fanta Uva (Lata 350ml)"
+                data-price="6"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+  
+          </div>
+  
+        </div>
+        <!-- FIM BEBIDA ITEM --> 
+
+      <!-- BEBIDA ITEM -->
+      <div class="flex gap-2 w-full">
+        <img 
+          src="Img/fanta-laranja.png"
+          alt="Fanta Laranja (Lata 350ml)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div class="w-full">
+          <p class="font-bold">Fanta Laranja (Lata 350ml)</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 6</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Fanta Laranja (Lata 350ml)"
+              data-price="6"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM BEBIDA ITEM -->
+
+      <!-- BEBIDA ITEM -->
+        <div class="flex gap-2 w-full">
+          <img 
+            src="Img/fanta-guaraná.png"
+            alt="Fanta Guaraná (Lata 350ml)"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+          />
+  
+          <div class="w-full">
+            <p class="font-bold">Fanta Guaraná (Lata 350ml)</p>
+  
+            <div class="flex items-center gap-2 justify-between mt-3">
+              <p class="font-bold text-lg">R$ 6</p>
+              <button 
+                class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                data-name="Fanta Guaraná (Lata 350ml)"
+                data-price="6"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+  
+          </div>
+  
+        </div>
+        <!-- FIM BEBIDA ITEM --> 
+
+      <!-- BEBIDA ITEM -->
+      <div class="flex gap-2 w-full">
+        <img 
+          src="Img/sprite.png"
+          alt="Sprite (Lata 350ml)"
+          class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div class="w-full">
+          <p class="font-bold">Sprite (Lata 350ml)</p>
+
+          <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 6</p>
+            <button 
+              class="bg-gray-900 px-5 rounded add-to-cart-btn"
+              data-name="Sprite (Lata 350ml)"
+              data-price="6"
+            >
+              <i class="fa fa-cart-plus text-lg text-white"></i>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- FIM BEBIDA ITEM -->
+
+    </div>
+    <!-- FIM GRID BEBIDAS -->
+
+  </div>
+  <!-- FIM MENU -->
+
+  <!-- MODAL CART -->
+  <div 
+    class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden"
+    id="cart-modal"
+  >
+
+    <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+      <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
+
+      <div id="cart-items" class="flex justify-between mb-2 flex-col max-h-[400px] overflow-auto"></div>
+
+      <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
+
+      <p class="font-bold mt-4">Endereço de entrega:</p>
+      <input 
+        type="text"
+        placeholder="Diamante do Norte, Avenida XV de Novembro - Bairro do Limoeiro, nº 387."
+        id="address"
+        class="w-full border-2 p-1 rounded my-1"
+      />
+      <p class="text-red-500 hidden" id="address-warn">Digite seu endereço completo!</p>
+
+      <div class="flex items-center justify-between mt-5 w-full">
+        <button id="close-modal-btn">Fechar</button>
+        <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar pedido</button>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- FIM MODAL CART -->
+
+  <!-- BUTTON CART FOOTER -->
+  <footer class="w-full bg-rose-800 py-3 fixed bottom-0 z-40 flex items-center justify-center">
+    <button 
+      class="flex items-center gap-2 text-white font-bold"
+      id="cart-btn"
+    >
+      (<span id="cart-count">0</span>)
+      Abrir meu carrinho
+      <i class="fa fa-cart-plus text-lg text-white"></i>
+    </button>
+  </footer>
+  <!-- FIM BUTTON CART FOOTER -->
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
